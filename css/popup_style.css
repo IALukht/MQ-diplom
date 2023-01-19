@@ -115,11 +115,13 @@
 	vertical-align: middle;
 	margin-right: 5px;
 	font-size: 13px;
+	cursor: pointer;
 
 }   
 
 .button-radio:checked+ .radio-group-text:before{
 	background-image: url("../svg/form-circle.svg");
+
 }
 
 .button-radio{
