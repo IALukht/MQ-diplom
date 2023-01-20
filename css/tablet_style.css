@@ -133,6 +133,7 @@
 
   .shop-wrap{
     flex-wrap: wrap;
+    margin: auto;
   }
 
   
