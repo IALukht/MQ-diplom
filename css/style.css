@@ -306,6 +306,12 @@ body {
   margin-left: 120px;
 }
 
+.latest-post{
+  display: flex;
+  flex-direction: column;
+}    
+
+
 .latest-post__title {
   font-size: 14px;
   margin: 0 0 30px 0;
@@ -597,6 +603,7 @@ body {
   margin-bottom: 40px;
   margin-right: auto;
   margin-left: auto;
+  max-width: 100%;
 
 }
 
@@ -621,13 +628,14 @@ body {
 }
 
 .shop-image{
-/*  width: 100%;*/
+  width: 100%;
 }
 
 
 .shop-card{
   display: flex;
   flex-direction: column;
+/*  width: 300px;*/
   height: 260px;
   border: 3px solid rgba(181, 159, 91, 0.6);
   position: absolute;

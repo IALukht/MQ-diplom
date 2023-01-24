@@ -21,6 +21,7 @@
     height: 60px;
     padding-top: 172px;
     padding-right: 1.875rem;
+    align-self: center;
   }
 
   .menu{  
@@ -85,8 +86,6 @@
 
   }
 
-  
-
   .trend-card{
     margin-right: 15px;
     margin-left: 15px;
@@ -96,7 +95,12 @@
   .trend__item{
     margin: 0 0 4px 0;
     width: 100%;
+    height: 230px;
 
+  }
+
+  .news-title.trend-card__title{
+    font-size: 16px;
   }
 
   .trend__item.trend__item-food{
@@ -112,7 +116,11 @@
     flex-wrap: wrap;
   }
 
-.news-title {
+  .block-post{
+/*    max-width: 70%;*/
+  }
+
+  .news-title {
     padding-bottom: 10px;
     
   }
@@ -128,7 +136,7 @@
   }
 
   .post-img {
-    max-width: 100%;
+    width: 100%;
     margin: 0 15px;
   }
 
@@ -137,12 +145,15 @@
   }
 
   .post-news{
-    padding: 15px;
+    margin: 15px;
     border-bottom: solid 4px #eeeeee;
+    width: 100%;
   }
 
   .post-list{
     flex-wrap: wrap;
+    justify-content: center;
+
   }
 
   .sidebar{
@@ -150,6 +161,14 @@
     margin-left: 15px;
     margin-right: 15px;
 
+  }
+
+  .latest-post{
+    align-self: center;
+  }
+
+  .latest-post_card{
+    width: 100%;
   }
 
   .searching {
@@ -166,14 +185,26 @@
     width: 100%;
   }
 
-  .shop__item{
-    margin-right: 15px;
-    margin-left: 15px;
+ .shop__item{
+/*    margin-right: 20px;*/
+/*    margin-left: 20px;*/
     height: 32.5em;
     padding: 0 30px 0;
-
-
   }
+
+.shop__item:nth-child(odd){
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+ }
+  .shop__item:nth-child(even){
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+ }
+
+
+  
 
   /*.shop__item:last-child {
     margin-right: 15px;
@@ -183,14 +214,15 @@
     flex-wrap: wrap;
     margin-right: 0;
     margin-left: 0;
+    justify-content: center;
+    
+    
   }
 
   .news-title.shop-card__title{
     font-size: 17px;
 
 }
-  .shop-card{
-    max-width: 285px;
-    padding: 0px 27px 0;
-  }
+  
 }
+

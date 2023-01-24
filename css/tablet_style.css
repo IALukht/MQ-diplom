@@ -67,15 +67,12 @@
   }
 
 
-  .trend-conteiner{
-    flex-wrap: wrap;
+  
 
-  }
-
-  .trend__item{
+  /*.trend__item{
     width: calc(50% - 4px);  
   
-  }
+  }*/
 
   .news-title.trend-card__title{
     font-size: 17px;
@@ -83,7 +80,7 @@
 
 
   .trend__item.trend__item-food{
-    margin-right: 0;
+/*    margin-right: 0;*/
     margin-bottom: 4px;
   }
 
@@ -92,11 +89,11 @@
   }
 
   .main_conteiner{
-    padding: 0 20px 0;
+    margin: 0 20px 0;
   }
 
   .block-post{
-    width: 100%;
+    min-width: 50%;
   } 
 
   .news-title {
@@ -122,21 +119,17 @@
 
   }
 
-  .shop-block{
+  /*.shop-block{
     justify-content: center;
-  }   
+  } */  
   
   .shop-card{
     bottom:-21px;
+    height: 260px;
 
   }
 
-  .shop-wrap{
-    flex-wrap: wrap;
-    margin: auto;
-  }
-
-  
+    
   .post-img{
     margin: 0 0 20px 0;
     width: 100%;
@@ -156,19 +149,45 @@
 
   .shop__item{
     width: 342px;
-    height: 460px;
+/*    height: 460px;*/
   }
 
+  
+
+    
+}
+
+@media(max-width: 992px){
+  .trend-conteiner{
+    flex-wrap: wrap;
+  }
+
+  .trend__item{
+    width: calc(50% - 4px);
+    height: 250px;
+
+  }
+  
+  .trend__item.trend__item-food{
+    margin-right: 0;
+    
+  }
+
+  .shop-wrap{
+    flex-wrap: wrap;
+    
+  }
+
+
   .shop__item:nth-child(odd){
-    margin-right: 13px;
+    margin-right: 10px;
     margin-left: 20px;
     margin-bottom: 50px;
  }
   .shop__item:nth-child(even){
     margin-right: 20px;
-    margin-left: 13px;
+    margin-left: 10px;
     margin-bottom: 50px;
  }
-
-    
+  
 }
