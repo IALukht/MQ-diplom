@@ -30,8 +30,6 @@
     margin-left: 35px;
     margin-right: 15px;
     padding-bottom: 40px;
-
-
   }
 
   .menu-list{
@@ -77,13 +75,11 @@
     position: absolute;
     left: 0;
     top: 50%;
-
   }
 
   .trend-conteiner{
     flex-wrap: wrap;
     width: 100%;
-
   }
 
   .trend-card{
@@ -96,7 +92,6 @@
     margin: 0 0 4px 0;
     width: 100%;
     height: 230px;
-
   }
 
   .news-title.trend-card__title{
@@ -105,7 +100,6 @@
 
   .trend__item.trend__item-food{
     margin: 0 0 4px 0;
-    
   }
 
   .trend__item.trend__item-travel{
@@ -116,13 +110,8 @@
     flex-wrap: wrap;
   }
 
-  .block-post{
-/*    max-width: 70%;*/
-  }
-
   .news-title {
     padding-bottom: 10px;
-    
   }
 
   .text-post {
@@ -153,14 +142,13 @@
   .post-list{
     flex-wrap: wrap;
     justify-content: center;
-
+    margin-bottom: 30px;
   }
 
   .sidebar{
     width: 100%;
     margin-left: 15px;
     margin-right: 15px;
-
   }
 
   .latest-post{
@@ -178,7 +166,6 @@
 
   .email-field {
     width: calc(100% - 18px);
-
   }
 
   .btn__subscribe {
@@ -186,43 +173,33 @@
   }
 
  .shop__item{
-/*    margin-right: 20px;*/
-/*    margin-left: 20px;*/
+    margin-right: 20px;
+    margin-left: 20px;
     height: 32.5em;
-    padding: 0 30px 0;
+    width: 325px;
+    padding: 0 20px 0;
   }
 
 .shop__item:nth-child(odd){
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 50px;
- }
+    margin: 0 15px 25px;
+  }
   .shop__item:nth-child(even){
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 50px;
+    margin: 0 15px 25px;
  }
-
-
-  
-
-  /*.shop__item:last-child {
-    margin-right: 15px;
-  }*/
 
   .shop-wrap {
-    flex-wrap: wrap;
-    margin-right: 0;
-    margin-left: 0;
     justify-content: center;
-    
-    
+    width: 100%;
+  }
+
+
+  .shop-card{
+    padding: 0px 17px 0;
   }
 
   .news-title.shop-card__title{
     font-size: 17px;
-
-}
+  }
   
 }
 

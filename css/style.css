@@ -609,7 +609,7 @@ body {
 
 .shop__item{
   display: flex;
-/*  width: 350px;*/
+  width: 350px;
   height: 440px;
   position: relative;
   margin-right: 30px;
@@ -623,8 +623,6 @@ body {
 .shop-img{
   display: flex;
   align-items: flex-start;
-  /*margin-right: auto;
-  margin-left: auto;*/
 }
 
 .shop-image{
@@ -642,8 +640,6 @@ body {
   bottom: 0;
   left: 0;
   padding: 0 22px 0;
-
-  
 }
 
 .news-title.shop-card__title{
@@ -651,8 +647,6 @@ body {
   padding-bottom: 0;
   padding-top: 55px;
   text-transform: uppercase;
-
-
 }
 
 .text-post.shop-post{
@@ -682,13 +676,11 @@ body {
   line-height: 1;
   display: flex;
   flex-direction: column;
-
 }
 
 .product__price_old {
   text-decoration: line-through;
   font-size: 14px;
-
 }
 
 .btn__shop {
@@ -784,4 +776,4 @@ body {
   overflow: hidden;
 }
 
-}
+

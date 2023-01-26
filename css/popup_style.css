@@ -6,16 +6,11 @@
 	display: flex;
 	top: 0;
 	left:0;
-	/*justify-content: center;
-	align-items: center;*/
-	
-
 }
 
 
 .pop-up{
 	max-width: 390px;
-/*	height: 590px;*/
 	padding: 50px 30px;
 	display: flex;
 	flex-direction: column;
@@ -60,7 +55,6 @@
 }
 
 
-
 .select-answer{
 	width: 100%;
 	height: 48px;
@@ -79,7 +73,7 @@
 	background-repeat: no-repeat;
 	background-size: 10px;
 	background-position: right 12px center;
- }
+}
 
 .select-answer:focus{
 	border-bottom: 1px solid #b59f5b;
@@ -118,12 +112,10 @@
 	margin-right: 5px;
 	font-size: 13px;
 	cursor: pointer;
-
 }   
 
 .button-radio:checked+ .radio-group-text:before{
 	background-image: url("../svg/form-circle.svg");
-
 }
 
 .button-radio{
@@ -174,5 +166,5 @@
     padding: 30px 20px;
     max-width: 330px;
    } 
-
+}
 
