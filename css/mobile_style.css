@@ -172,29 +172,21 @@
     width: 100%;
   }
 
- .shop__item{
-    margin-right: 20px;
-    margin-left: 20px;
-    height: 32.5em;
-    width: 325px;
-    padding: 0 20px 0;
-  }
-
-.shop__item:nth-child(odd){
-    margin: 0 15px 25px;
-  }
-  .shop__item:nth-child(even){
-    margin: 0 15px 25px;
- }
 
   .shop-wrap {
     justify-content: center;
-    width: 100%;
+    
+  }
+
+ .shop__item{
+    margin: 0 15px 24px;
+    min-width: 100%;
+    padding: 0 26.5px 0;
   }
 
 
   .shop-card{
-    padding: 0px 17px 0;
+    padding: 55px 22px 25px;
   }
 
   .news-title.shop-card__title{

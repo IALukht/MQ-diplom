@@ -107,8 +107,8 @@
 
     
   .shop-card{
-    bottom:-21px;
-    height: 260px;
+/*    bottom:-21px;*/
+    height: 100%;
   }
 
     
@@ -126,13 +126,8 @@
 
   .sidebar{
     margin-left: 35px;
-    
   }
 
-  .shop__item{
-    width: 338px;
-  }
-    
 }
 
 @media(max-width: 992px){
@@ -152,14 +147,13 @@
   .shop-wrap{
     flex-wrap: wrap;
     justify-content: space-between;
-    width: calc(100% - 70px);
+    width: calc(100% - 50px);
   }
 
-  .shop__item:nth-child(odd){
-      margin: 0 10px 50px 0;
-  }
-
-  .shop__item:nth-child(even){
-      margin: 0 0 50px 10px;
+  .shop__item{
+    margin-right: 1.394%;
+    margin-left: 1.394%;
+    margin-bottom: 3.9%;
+    width: 47%;
   }
 }
